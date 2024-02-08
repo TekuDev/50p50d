@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Day 50 - Silly Game</title>
+</head>
+<body>
+    <div class="screen">
+        <h2>Catch The Insect</h2>
+        <button class="btn" id="start-btn">Play Game</button>
+    </div>
+
+    <div class="screen">
+        <h1>What is your favorite color?</h1>
+        <ul class="colors-list">
+            <li>
+                <button class="choose-color-btn">
+                    <p>Red</p>
+                    <div class="red"></div>
+                </button>
+            </li>
+            <li>
+                <button class="choose-color-btn">
+                    <p>Green</p>
+                    <div class="green"></div>
+                </button>
+            </li>
+            <li>
+                <button class="choose-color-btn">
+                    <p>Blue</p>
+                    <div class="blue"></div>
+                </button>
+            </li>
+            <li>
+                <button class="choose-color-btn">
+                    <p>Purple</p>
+                    <div class="purple"></div>
+                </button>
+            </li>
+        </ul>
+    </div>
+
+    <div class="screen game-container">
+        <h3 id="time">Time: 00:00</h3>
+        <h3 id="score">Score: 00</h3>
+        <h5 id="msg-start" class="msg visible">Keep the screen with your favorit color <br> Click on the different color square to remove it</h5>
+        <h5 id="msg-end" class="msg">Are you annoyed yet? <br> You are playing an impossible game</h5>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
